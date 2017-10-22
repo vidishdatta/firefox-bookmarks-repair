@@ -1,0 +1,183 @@
+{
+    "guid": "root________",
+    "title": "",
+    "index": 0,
+    "dateAdded": 1508668199994000,
+    "lastModified": 1508668202103000,
+    "id": 1,
+    "type": "text/x-moz-place-container",
+    "root": "placesRoot",
+    "children": [
+        {
+            "guid": "menu________",
+            "title": "Bookmarks Menu",
+            "index": 0,
+            "dateAdded": 1508668199994000,
+            "lastModified": 0,
+            "id": 2,
+            "type": "text/x-moz-place-container",
+            "root": "bookmarksMenuFolder",
+            "children": [
+                {
+                    "guid": "EkLcvOXmADEr",
+                    "title": "Recent Tags",
+                    "index": 0,
+                    "dateAdded": 1508668200421000,
+                    "lastModified": 1508668200480000,
+                    "id": 14,
+                    "annos": [
+                        {
+                            "name": "Places/SmartBookmark",
+                            "flags": 0,
+                            "expires": 4,
+                            "value": "RecentTags"
+                        }
+                    ],
+                    "type": "text/x-moz-place",
+                    "uri": "place:type=6&sort=14&maxResults=10"
+                },
+                {
+                    "guid": "67GFSzEgSsya",
+                    "title": "",
+                    "index": 1,
+                    "dateAdded": 0,
+                    "lastModified": 0,
+                    "id": 15,
+                    "type": "text/x-moz-place-separator"
+                },
+                {
+                    "guid": "AdRMRjKrJliw",
+                    "title": "Mozilla Firefox",
+                    "index": 2,
+                    "dateAdded": 1508668200213000,
+                    "lastModified": 1508668200228000,
+                    "id": 8,
+                    "type": "text/x-moz-place-container",
+                    "children": [
+                        {
+                            "guid": "59QdrD1Kys3K",
+                            "title": "Help and Tutorials",
+                            "index": 0,
+                            "dateAdded": 1508668200213000,
+                            "lastModified": 1508668200213000,
+                            "id": 9,
+                            "iconuri": "http://www.mozilla.org/2005/made-up-favicon/1-1508668200219",
+                            "type": "text/x-moz-place",
+                            "uri": "https://support.mozilla.org/en-US/products/firefox"
+                        },
+                        {
+                            "guid": "u12DqGE1VO4X",
+                            "title": "Customize Firefox",
+                            "index": 1,
+                            "dateAdded": 1508668200213000,
+                            "lastModified": 1508668200213000,
+                            "id": 10,
+                            "iconuri": "http://www.mozilla.org/2005/made-up-favicon/2-1508668200222",
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.mozilla.org/en-US/firefox/customize/"
+                        },
+                        {
+                            "guid": "oXx5cw2b3gVr",
+                            "title": "Get Involved",
+                            "index": 2,
+                            "dateAdded": 1508668200213000,
+                            "lastModified": 1508668200213000,
+                            "id": 11,
+                            "iconuri": "http://www.mozilla.org/2005/made-up-favicon/3-1508668200225",
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.mozilla.org/en-US/contribute/"
+                        },
+                        {
+                            "guid": "fqcON7J-8RVi",
+                            "title": "About Us",
+                            "index": 3,
+                            "dateAdded": 1508668200228000,
+                            "lastModified": 1508668200228000,
+                            "id": 12,
+                            "iconuri": "http://www.mozilla.org/2005/made-up-favicon/4-1508668200229",
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.mozilla.org/en-US/about/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "guid": "toolbar_____",
+            "title": "Bookmarks Toolbar",
+            "index": 1,
+            "dateAdded": 1508668199994000,
+            "lastModified": 1508668200235000,
+            "id": 3,
+            "annos": [
+                {
+                    "name": "bookmarkProperties/description",
+                    "flags": 0,
+                    "expires": 4,
+                    "value": "Add bookmarks to this folder to see them displayed on the Bookmarks Toolbar"
+                }
+            ],
+            "type": "text/x-moz-place-container",
+            "root": "toolbarFolder",
+            "children": [
+                {
+                    "guid": "Wgxj5OvcwtA6",
+                    "title": "Most Visited",
+                    "index": 0,
+                    "dateAdded": 1508668200235000,
+                    "lastModified": 1508668200418000,
+                    "id": 13,
+                    "annos": [
+                        {
+                            "name": "Places/SmartBookmark",
+                            "flags": 0,
+                            "expires": 4,
+                            "value": "MostVisited"
+                        }
+                    ],
+                    "type": "text/x-moz-place",
+                    "uri": "place:sort=8&maxResults=10"
+                },
+                {
+                    "guid": "XGLQLwLBcnUq",
+                    "title": "Getting Started",
+                    "index": 1,
+                    "dateAdded": 1508668200213000,
+                    "lastModified": 1508668200213000,
+                    "id": 7,
+                    "iconuri": "http://www.mozilla.org/2005/made-up-favicon/0-1508668200213",
+                    "type": "text/x-moz-place",
+                    "uri": "https://www.mozilla.org/en-US/firefox/central/"
+                }
+            ]
+        },
+        {
+            "guid": "unfiled_____",
+            "title": "Other Bookmarks",
+            "index": 3,
+            "dateAdded": 1508668199994000,
+            "lastModified": 1508668200197000,
+            "id": 5,
+            "type": "text/x-moz-place-container",
+            "root": "unfiledBookmarksFolder"
+        },
+        {
+            "guid": "mobile______",
+            "title": "mobile",
+            "index": 4,
+            "dateAdded": 1508668200010000,
+            "lastModified": 1508668200010000,
+            "id": 6,
+            "annos": [
+                {
+                    "name": "mobile/bookmarksRoot",
+                    "flags": 0,
+                    "expires": 4,
+                    "value": 1
+                }
+            ],
+            "type": "text/x-moz-place-container",
+            "root": "mobileFolder"
+        }
+    ]
+}
