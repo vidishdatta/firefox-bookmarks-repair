@@ -1,8 +1,10 @@
-const fs = require('fs');
-let defaultJSON = require("./bookmarks.json");
+#!/usr/bin/env node
+
+var fs = require('fs'),
+    defaultJSON = require("./bookmarks.json"),
+    newFileName = "new-bookmarks-" + Date.now() + ".json";
 
 let nj = JSON.parse(JSON.stringify(defaultJSON));
-const newFileName = "new-bookmarks-" + Date.now() + ".json";
 
 repairJSON(nj);
 
@@ -11,7 +13,7 @@ fs.writeFile(newFileName, JSON.stringify(nj, null, 4), 'utf8', function (err) {
         return console.log(err);
     }
 
-    console.log("The file was saved! : ", newFileName);
+    console.log("The new bookmarks file is generated -> ", newFileName);
 });
 
 function repairJSON(json) {
@@ -29,6 +31,6 @@ function repairJSON(json) {
     if (json.children) {
         for (const child of json.children) {
             repairJSON(child);
-        }   
+        }
     }
 }

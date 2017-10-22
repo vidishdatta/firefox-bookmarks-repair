@@ -1,14 +1,30 @@
-## Prerequisites
+firefox-bookmarks-repair
+========================
 
-    # Place bookmarks.json in root of this project
-    # A demo bookmarks.json is placed here. It may not be well formatted when firefox generates it.
+A repository to repair Firefox backed up JSON file. Can be used in \"Unable to process the backup file\" scenario
+
+## Installation
+
+  npm install firefox-bookmarks-repair -g
 
 ## Usage
 
-<code>
-node bookmarks.js
-</code>
+If package downloaded and bookmarks.json available along with bookmarks.js
 
-## Result
+    node bookmarks.js
 
-    Result will be available as `new-bookmarks-<timestamp>.json`
+If installed globally, run the below in a directory where bookmarks.json exists 
+    
+    firefox-bookmarks-repair 
+
+## Tests
+
+  NA
+
+## Issues
+
+Raise issues in github with bookmarks.json that is failing
+
+## Release History
+
+* 1.0.0 Initial release
